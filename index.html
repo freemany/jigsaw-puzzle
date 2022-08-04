@@ -1,0 +1,59 @@
+<html>
+  <head>
+    <title>Jigsaw Puzzle</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style>
+      .jigsaw {
+        width: 50px;
+        height: 50px;
+        border: 1px solid gray;
+        position: relative;
+      }
+      .jigsaw > div {
+        width: 30px;
+        height: 20px;
+      }
+      .jigsaw .pos-0 {
+        position: absolute;
+        top: 15px;
+        left: 2px;
+      }
+      .jigsaw .pos-1 {
+        position: absolute;
+        top: -3px;
+        left: 0;
+        width: 50px;
+        text-align: center;
+      }
+      .jigsaw .pos-2 {
+        position: absolute;
+        top: 15px;
+        right: 0;
+        text-align: right;
+      }
+      .jigsaw .pos-3 {
+        position: absolute;
+        top: 35px;
+        left: 0;
+        width: 50px;
+        text-align: center;
+      }
+      .puzzle {
+        margin: 50px auto;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      #shuffled-puzzle {
+        background-color: #ede2c5;
+      }
+      #sorted-puzzle {
+        background-color: #e6f5f5;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="shuffled-puzzle" class="puzzle"></div>
+    <div id="sorted-puzzle" class="puzzle"></div>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
