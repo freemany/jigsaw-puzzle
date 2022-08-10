@@ -20,6 +20,8 @@ You run `generatePuzzle(w, h)`, `w` and `h` are the size of the puzzle, number o
 In Chrome browser Console, run: `generatePuzzle(4,3)` to the shuffled puzzle.
 run: `sortPuzzle()` to sort them on board.
 
+![alt text](https://github.com/freemany/jigsaw-puzzle/blob/master/images/demo.png?raw=true)
+
 ### NO Node NO WebPack
 
 We can ustilise the modern Chrome browser to run modular Js/html from file system without NodeJs or WebPack installed, that spares a whole layer of complexity to your code as in this repo we focus on Logic, prototying and experiment. Siimpliciy is the Ultimate of Sophistication.
